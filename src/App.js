@@ -16,17 +16,17 @@ const App = () => {
         <Route exact path="/" component={() => <Home />} />
 
         <Route path="/add">
-          <h1>
-            <AddContact />
-          </h1>
-        </Route>
+          <AddContact />
+          </Route>
 
         <Route path="/edit/:id">
           <EditContact />
         </Route>
+      
       </Switch>
     </div>
   );
 };
 
 export default App;
+
